@@ -168,7 +168,7 @@ h1 {
     width: 49%;
   }
   .illustration-img {
-    background: url(/illustration-sign-up-desktop.png) no-repeat;
+    background: url(../public/illustration-sign-up-desktop.png) no-repeat;
     height: 100%;
     width: 100%;
     border-radius: 15px;
