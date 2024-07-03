@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import illsImg from "illustration-sign-up-mobile.png"
 
 import Landing from './components/Landing'
 import ThankYouPage from './components/ThankYouPage'
@@ -42,7 +43,7 @@ function App() {
   <div className='body'>
     <main className={showingPage === 'landing' ? "container" : "success-container"}>
     <section className="image-section">
-    <img className="illustration-img" src="../public/illustration-sign-up-mobile.png" alt="" />
+    <img className="illustration-img" src={illsImg} alt="" />
     </section>
     <section className="content-section">
     {showingPage === 'landing' ? 
