@@ -1,8 +1,10 @@
+import checkIcon from "../../public/icon-success.png"
+
 export default function ThankYouPage({ onButtonClick, emailValue }) {
     return (
     <article className="success-message">
 
-      <img className="success-icon" src="../../public/icon-success.png" alt="" />
+      <img className="success-icon" src={checkIcon} alt="" />
 
       <h1>Thanks for subscribing!</h1>
 
